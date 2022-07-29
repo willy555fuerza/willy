@@ -1,0 +1,11 @@
+body
+{
+    background-color: black;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+strong
+{
+    background-color: red;
+}

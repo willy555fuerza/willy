@@ -1,0 +1,27 @@
+body
+{
+    background-color: black;
+    color: white;
+}
+
+#canvasArrows
+{
+    border: 1px solid rgba(4, 1, 9, 0.5);
+    /*height: 100vh;*/
+    display: flex;
+    background: lightcyan;
+    font-family: Segoe UI;
+    justify-content: center;
+    align-items: center;
+    margin: 3;
+
+}
+
+.botoncito
+{
+    border-radius: 5px;
+    background-color: rgba(147, 247, 234, 0.719);
+    border: 2px solid rgb(0, 3, 3);
+    width: 35px;
+    height: 20px;
+}

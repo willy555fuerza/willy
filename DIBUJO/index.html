@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dibujando con Mouse</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+ 
+  <div style="text-align: center">
+    <h1 class=Dibujando_en_Canvas><strong>Dibujando con el Mouse</strong></h1>
+    <p class="libera"><strong>Libera tu imaginación!</strong></p>
+    <canvas width="1000px" height="500px" id="area_de_desarrollo"></canvas>
+    <p class="basic"><i> Escoge el color a tu gusto.</i></p>
+    <input type="color" id="colorcito"></input>
+    <p class="basic"><i> Escoge el grosor de tu línea.</i></p>
+    <input class="grosor" type="range" id="grosor_linea" oninput="grosor_linea(this.value);" min="3" max="30" value="1"></input> </br>
+    <p class="basic"><i>Limpia tu area de dibujo.</i></p>
+    <input type="button" class="botoncito " id="boton_determinante">
+  </div>
+  <script src="/dibujo.js" ></script>
+</body>
+</html>

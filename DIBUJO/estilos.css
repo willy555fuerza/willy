@@ -1,0 +1,48 @@
+body {
+    background-image: url("GradientBlueImageV3.gif");
+    height: 1000px;
+    background-repeat: repeat;
+    background-position: center;
+    background-size: cover;
+  }
+
+  H1.Dibujando_en_Canvas {
+    text-shadow: 4px 4px rgb(0, 204, 240);
+    line-height: 50%;
+    color: rgb(0, 90, 143);
+    font-size: 60pt;
+    font-family: "Century Gothic", sans-serif;
+  }
+
+  p.basic {
+    line-height: 150%;
+    color: rgb(255, 255, 255);
+    font-size: 15pt;
+    font-family: "Monaco", monospace;
+  }
+
+  p.libera {
+    line-height: 50%;
+    color: rgb(0, 255, 255);
+    font-size: 30pt;
+    font-family: Consolas;
+  }
+
+  canvas {
+    border-radius: 60px;
+    background-color: rgb(241, 241, 241);
+    padding-left: 0;
+    padding-right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    width: 1000px;
+  }
+
+  .botoncito {
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0.719);
+    border: 2px solid rgb(0, 170, 255);
+    height: 35px;
+    width: 35px;
+  }
